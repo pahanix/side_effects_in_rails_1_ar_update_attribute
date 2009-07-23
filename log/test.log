@@ -1,0 +1,226 @@
+  [4;36;1mPost Create (0.5ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:20:47', 'New Title', 'New Body', '2009-07-22 08:20:47')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mPost Create (0.5ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:22:09', 'New Title', 'New Body', '2009-07-22 08:22:09')[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mPost Create (0.5ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:22:39', 'Old Title', 'Old Body', '2009-07-22 08:22:39')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:22:39' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:22:39', 'Old Title', 'Old Body', '2009-07-22 08:22:39')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:22:39' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mPost Create (0.5ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:22:54', 'Old Title', 'Old Body', '2009-07-22 08:22:54')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:22:54' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:22:54', 'Old Title', 'Old Body', '2009-07-22 08:22:54')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:22:54' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mPost Create (0.6ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:42:31', 'Old Title', 'Old Body', '2009-07-22 08:42:31')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:42:31' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:42:32', 'Old Title', 'Old Body', '2009-07-22 08:42:32')[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.6ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:42:32' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:42:32', 'Old Title', 'Old Body', '2009-07-22 08:42:32')[0m
+  [4;36;1mPost Create (0.6ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:42:58', 'Old Title', 'Old Body', '2009-07-22 08:42:58')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:42:58' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:42:58', 'Old Title', 'Old Body', '2009-07-22 08:42:58')[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.2ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:42:58' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:42:58', 'Old Title', 'Old Body', '2009-07-22 08:42:58')[0m
+  [4;36;1mPost Create (0.6ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:43:11', 'Old Title', 'Old Body', '2009-07-22 08:43:11')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:43:11' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:43:11', 'Old Title', 'Old Body', '2009-07-22 08:43:11')[0m
+  [4;36;1mPost Load (3.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.3ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:43:11' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:43:11', 'Old Title', 'Old Body', '2009-07-22 08:43:11')[0m
+  [4;36;1mComment Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such column: comments.post_id: SELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.5ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:44:55', 'Old Title', 'Old Body', '2009-07-22 08:44:55')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:44:55' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:44:55', 'Old Title', 'Old Body', '2009-07-22 08:44:55')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:44:55' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:44:55', 'Old Title', 'Old Body', '2009-07-22 08:44:55')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:44:55' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:44:55', 'Comment', 1, '2009-07-22 08:44:55')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.7ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:46:13', 'Old Title', 'Old Body', '2009-07-22 08:46:13')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:46:13' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:46:13', 'Old Title', 'Old Body', '2009-07-22 08:46:13')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:46:13' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.7ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:46:13', 'Old Title', 'Old Body', '2009-07-22 08:46:13')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:46:13' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:46:13', 'Comment', 1, '2009-07-22 08:46:13')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.4ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:46:37', 'Old Title', 'Old Body', '2009-07-22 08:46:37')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:46:37' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:46:37', 'Old Title', 'Old Body', '2009-07-22 08:46:37')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:46:37' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:46:37', 'Old Title', 'Old Body', '2009-07-22 08:46:37')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:46:37' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:46:37', 'Comment', 1, '2009-07-22 08:46:37')[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.5ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:48:27', 'Old Title', 'Old Body', '2009-07-22 08:48:27')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:48:27' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:48:27', 'Old Title', 'Old Body', '2009-07-22 08:48:27')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:48:27' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:48:27', 'Old Title', 'Old Body', '2009-07-22 08:48:27')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:48:27' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:48:27', 'Comment', 1, '2009-07-22 08:48:27')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.7ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:49:04', 'Old Title', 'Old Body', '2009-07-22 08:49:04')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:49:04' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:49:04', 'Old Title', 'Old Body', '2009-07-22 08:49:04')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:49:04' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:49:04', 'Old Title', 'Old Body', '2009-07-22 08:49:04')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.2ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:49:04' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:49:04', 'Comment', 1, '2009-07-22 08:49:04')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:49:04', 'Old Title', 'Old Body', '2009-07-22 08:49:04')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:49:04' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.4ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:51:03', 'Old Title', 'Old Body', '2009-07-22 08:51:03')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:51:03' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:51:03', 'Old Title', 'Old Body', '2009-07-22 08:51:03')[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:51:03' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:51:03', 'Old Title', 'Old Body', '2009-07-22 08:51:03')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:51:03' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:51:03', 'Comment', 1, '2009-07-22 08:51:03')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:51:03', 'Old Title', 'Old Body', '2009-07-22 08:51:03')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:51:03' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.5ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:36', 'Old Title', 'Old Body', '2009-07-22 08:53:36')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:53:36' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:36', 'Old Title', 'Old Body', '2009-07-22 08:53:36')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:53:36' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:36', 'Old Title', 'Old Body', '2009-07-22 08:53:36')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:53:36' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:53:36', 'Comment', 1, '2009-07-22 08:53:36')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:36', 'Old Title', 'Old Body', '2009-07-22 08:53:36')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:53:36' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.3ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:36', 'Old Title', 'Old Body', '2009-07-22 08:53:36')[0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Update (0.2ms)[0m   [0;1mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:53:36' WHERE "id" = 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.4ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:55', 'Old Title', 'Old Body', '2009-07-22 08:53:55')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 08:53:55' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:55', 'Old Title', 'Old Body', '2009-07-22 08:53:55')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:53:55' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:55', 'Old Title', 'Old Body', '2009-07-22 08:53:55')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:53:55' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:53:55', 'Comment', 1, '2009-07-22 08:53:55')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:55', 'Old Title', 'Old Body', '2009-07-22 08:53:55')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:53:55' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.3ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 08:53:55', 'Old Title', 'Old Body', '2009-07-22 08:53:55')[0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Update (0.1ms)[0m   [0;1mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 08:53:55' WHERE "id" = 1[0m
+  [4;35;1mComment Create (0.4ms)[0m   [0mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 08:53:55', 'Comment', 1, '2009-07-22 08:53:55')[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.4ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 09:11:35', 'Old Title', 'Old Body', '2009-07-22 09:11:35')[0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 09:11:35' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 09:11:35', 'Old Title', 'Old Body', '2009-07-22 09:11:35')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 09:11:35' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 09:11:35', 'Comment', 1, '2009-07-22 09:11:35')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 09:11:35', 'Old Title', 'Old Body', '2009-07-22 09:11:35')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 09:11:35' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.4ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 09:11:35', 'Old Title', 'Old Body', '2009-07-22 09:11:35')[0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Update (0.1ms)[0m   [0;1mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 09:11:35' WHERE "id" = 1[0m
+  [4;35;1mComment Create (0.1ms)[0m   [0mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 09:11:35', 'Comment', 1, '2009-07-22 09:11:35')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (33.7ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 09:23:47', 'Old Title', 'Old Body', '2009-07-22 09:23:47')[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mPost Update (0.1ms)[0m   [0;1mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 09:23:47' WHERE "id" = 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mPost Create (0.8ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 10:11:32', 'Old Title', 'Old Body', '2009-07-22 10:11:32')[0m
+  [4;35;1mPost Update (0.2ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "body" = 'New Body', "updated_at" = '2009-07-22 10:11:32' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 10:11:32', 'Old Title', 'Old Body', '2009-07-22 10:11:32')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 10:11:32' WHERE "id" = 1[0m
+  [4;36;1mComment Create (0.2ms)[0m   [0;1mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 10:11:32', 'Comment', 1, '2009-07-22 10:11:32')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 10:11:32', 'Old Title', 'Old Body', '2009-07-22 10:11:32')[0m
+  [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;35;1mPost Update (0.1ms)[0m   [0mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 10:11:32' WHERE "id" = 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.3ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 10:11:32', 'Old Title', 'Old Body', '2009-07-22 10:11:32')[0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Update (0.1ms)[0m   [0;1mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 10:11:32' WHERE "id" = 1[0m
+  [4;35;1mComment Create (0.2ms)[0m   [0mINSERT INTO "comments" ("updated_at", "body", "post_id", "created_at") VALUES('2009-07-22 10:11:32', 'Comment', 1, '2009-07-22 10:11:32')[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 1) [0m
+  [4;36;1mPost Create (0.3ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "created_at") VALUES('2009-07-22 10:11:32', 'Old Title', 'Old Body', '2009-07-22 10:11:32')[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;36;1mPost Update (0.1ms)[0m   [0;1mUPDATE "posts" SET "title" = 'New Title', "updated_at" = '2009-07-22 10:11:32' WHERE "id" = 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
